@@ -1,0 +1,39 @@
+@import "../fonts/fonts.css";
+html{
+    padding: 0!important;
+}
+body{
+    background-color: #eeeeee;
+    font-family: Gilroy, sans-serif !important;
+}
+.fw-sbold{
+    font-weight: 600;
+}
+.main-banner{
+    background: linear-gradient(
+            rgba(0, 0, 0, 0.8),
+            rgba(0, 0, 0, 0.8)),
+    url("../img/amazon_heating_pipes.0.jpg") center center;
+    background-size: cover;
+}
+.card-custom{
+    border: none;
+    border-radius: 20px;
+    box-shadow: 5px 10px 10px 5px rgba(0, 0, 0, 0.1);
+}
+.form-check-input:checked {
+    background-color: #ffc107;
+    border-color: #ffc107;
+}
+@media (min-width: 992px) {
+    .main-banner{
+        height: 80vh;
+    }
+    .main-banner .container{
+        height: 100%;
+    }
+    .card-custom{
+        height: 100%;
+    }
+
+}
